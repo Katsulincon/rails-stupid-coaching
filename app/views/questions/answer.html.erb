@@ -1,0 +1,14 @@
+
+<div class="container">
+  <div class="display-question">
+    <p><%= params[:question] %></p>
+    <p>-You</p>
+  </div>
+
+  <div class="coach-answer">
+    <p><%= @coach_answer %></p>
+    <p>-Your Coach</p>
+  </div>
+</div>
+
+<%= link_to 'Ask again',ask_path  %>
